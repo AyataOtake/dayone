@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dayone"
+version = "0.0.1"
+authors = [
+  { name="Ayata"},
+]
+description = "Placeholder Description"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  'pip>=23',
+  'streamlit==1.20.0',
+  'pandas==1.4.3',
+  'openpyxl'
+]
